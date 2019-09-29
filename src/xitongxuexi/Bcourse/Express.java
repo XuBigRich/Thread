@@ -16,8 +16,10 @@ public class Express {
         notifyAll();
     }
     public synchronized void changeSite(){
-        this.site="beijing";
+        this.site="jinan";
         notifyAll();
+        //notifyAll 让出锁 后 会重新 竞争 这个对象锁
+        System.out.println("我觉得我还可以抢救一下");
     }
     public synchronized void waitKm(){
         while(km<100){

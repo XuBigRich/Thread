@@ -12,7 +12,7 @@ public class UserJoin {
         @Override
         public void run() {
             try {
-                thread.join();
+                thread.join();  //当0这个线程 被主线程插队 后 主线程 被 休眠了 两秒 以至于 后面的 插队 还在进行
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -28,7 +28,8 @@ public class UserJoin {
             thread.start();
             previous=thread;
         }
-        SleepTools.second(2);
+
         System.out.println(Thread.currentThread().getName()+"terminate.");
+        SleepTools.second(2);
     }
 }
