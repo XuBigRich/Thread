@@ -2,70 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e214074-63ec-41f9-b1c7-269da691d4d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/SynClzAndInst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/SynTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/UseThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/tools/SleepTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/Express.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/TestWN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/UserJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/MakeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/DBPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/DBToolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/SqlConnectImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ThisDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/join/TestJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/DGSumMultiThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumMultiThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/Bank/BankAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/Bank/RyanAndMonicajob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/Login/ALogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/Login/BLogin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/Login/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/Login/Run.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/deadlock_sisuo/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/deadlock_sisuo/Lock1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/deadlock_sisuo/Lock2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/piciqidong/ThreadTest$Dec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/piciqidong/ThreadTest$Inc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/piciqidong/ThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/print/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/print/Run.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/OnlyMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/azhuxiancheng/Demo$Zxc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/azhuxiancheng/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/end/EndRunnable$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/end/EndRunnable$UseThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/end/EndRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/end/EndThread$UseThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/end/EndThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/end/HasInterrputException$UseThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/end/HasInterrputException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/shixian/NewThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/shixian/NewThread$UseCall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/shixian/NewThread$UseRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/shixian/NewThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/BankAccount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank/RyanAndMonicajob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/ALogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jichu/Login/ALogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/BLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jichu/Login/BLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jichu/Login/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jichu/Login/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deadlock_sisuo/DeadLock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deadlock_sisuo/Lock1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deadlock_sisuo/Lock2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jichu/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/piciqidong/ThreadTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/print/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jichu/print/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/print/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jichu/print/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/OnlyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/OnlyMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/azhuxiancheng/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/shouhuyouxianzhixing/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/end/EndRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/isInterrupted/EndRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/end/EndThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/isInterrupted/EndThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/end/HasInterrputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Acourse/isInterrupted/HasInterrputException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/shixian/NewThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/AAshixianfangshi/NewThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/AAshixianfangshi/NewThread$UseCall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/AAshixianfangshi/NewThread$UseCall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/AAshixianfangshi/NewThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/AAshixianfangshi/NewThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Acourse/shouhuyouxianzhixing/Demo$Zxc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Acourse/shouhuyouxianzhixing/Demo$Zxc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/forkjoin/MakeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/forkjoin/MakeArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/forkjoin/SumArray$SumTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/forkjoin/SumArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/forkjoin/SumNormal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/xianchengchi/DBToolTest$Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/xianchengchi/DBToolTest$Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/AAshixianfangshi/NewThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/AAshixianfangshi/NewThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/MakeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/MakeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/SumArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/SumNormal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,19 +35,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/UserJoin.java">
+        <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumMultiThreads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="589">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumArray.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/SumArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+            <state relative-caret-position="399">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,28 +59,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinTask.java">
+        <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/DGSumMultiThreads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="699" column="42" lean-forward="true" selection-start-line="699" selection-start-column="42" selection-end-line="699" selection-end-column="42" />
+            <state relative-caret-position="361">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinWorkerThread.java">
+        <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/SumNormal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+            <state relative-caret-position="114">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinPool.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="783" column="68" lean-forward="true" selection-start-line="783" selection-start-column="68" selection-end-line="783" selection-end-column="68" />
+            <state relative-caret-position="76">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -147,23 +120,16 @@
       <find>init</find>
       <find>fetch</find>
       <find>fetchConn</find>
+      <find>ForkJoinWorkerThread</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/deadlock_sisuo/Lock1.java" />
-        <option value="$PROJECT_DIR$/src/print/Run.java" />
-        <option value="$PROJECT_DIR$/src/test/Runtest.java" />
-        <option value="$PROJECT_DIR$/src/test/Runtest1.java" />
-        <option value="$PROJECT_DIR$/src/test/main.java" />
-        <option value="$PROJECT_DIR$/src/xitongxuexi/end/EndRunable.java" />
-        <option value="$PROJECT_DIR$/src/xitongxuexi/zhuxiancheng/demo.java" />
-        <option value="$PROJECT_DIR$/src/xitongxuexi/azhuxiancheng/demo.java" />
-        <option value="$PROJECT_DIR$/src/xitongxuexi/end/EndRunnable.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/end/EndThread.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/end/HasInterrputException.java" />
         <option value="$PROJECT_DIR$/src/Login/BLogin.java" />
@@ -193,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/SynClzAndInst.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/SynTest.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/UseThreadLocal.java" />
-        <option value="$PROJECT_DIR$/src/xitongxuexi/AAshixianfangshi/NewThread.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/TestWN.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/Express.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/SqlConnectImpl.java" />
@@ -203,17 +168,27 @@
         <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/DBPool.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/DBToolTest.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/UserJoin.java" />
-        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/MakeArray.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumNormal.java" />
         <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumArray.java" />
+        <option value="$PROJECT_DIR$/src/test/join/TestJoin.java" />
+        <option value="$PROJECT_DIR$/src/test/ThisDemo.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/MakeArray.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/SumNormal.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumTask.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumUtils.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/AAshixianfangshi/NewThread.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumMultiThreads.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/MakeArray.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/SumArray.java" />
+        <option value="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/DGSumMultiThreads.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="318" />
-    <option name="y" value="126" />
-    <option name="width" value="1320" />
-    <option name="height" value="774" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="352" />
+    <option name="y" value="91" />
+    <option name="width" value="1083" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -223,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,6 +223,13 @@
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xitongxuexi" type="462c0819:PsiDirectoryNode" />
+              <item name="AAshixianfangshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xitongxuexi" type="462c0819:PsiDirectoryNode" />
               <item name="Bcourse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -257,11 +240,36 @@
               <item name="Bcourse" type="462c0819:PsiDirectoryNode" />
               <item name="forkjoin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xitongxuexi" type="462c0819:PsiDirectoryNode" />
+              <item name="Bcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="forkjoin" type="462c0819:PsiDirectoryNode" />
+              <item name="A" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xitongxuexi" type="462c0819:PsiDirectoryNode" />
+              <item name="Bcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="forkjoin" type="462c0819:PsiDirectoryNode" />
+              <item name="B" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xitongxuexi" type="462c0819:PsiDirectoryNode" />
+              <item name="Bcourse" type="462c0819:PsiDirectoryNode" />
+              <item name="xianchengchi" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,7 +283,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -290,13 +298,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.SumArray">
-    <configuration name="DBToolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.xianchengchi.DBToolTest" />
+    <configuration name="NewThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.AAshixianfangshi.NewThread" />
       <module name="Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.xianchengchi.*" />
+          <option name="PATTERN" value="xitongxuexi.AAshixianfangshi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,12 +313,26 @@
       </method>
     </configuration>
     <configuration name="SumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.forkjoin.SumArray" />
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.forkjoin.A.SumArray" />
       <module name="Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.forkjoin.*" />
+          <option name="PATTERN" value="xitongxuexi.Bcourse.forkjoin.A.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumMultiThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.forkjoin.B.SumMultiThreads" />
+      <module name="Thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xitongxuexi.Bcourse.forkjoin.B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,12 +341,12 @@
       </method>
     </configuration>
     <configuration name="SumNormal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.forkjoin.SumNormal" />
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.forkjoin.A.SumNormal" />
       <module name="Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.forkjoin.*" />
+          <option name="PATTERN" value="xitongxuexi.Bcourse.forkjoin.A.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,27 +354,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.TestWN" />
+    <configuration name="ThisDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ThisDemo" />
       <module name="Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.xianchengchi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.UserJoin" />
-      <module name="Thread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,19 +391,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestWN" />
-      <item itemvalue="Application.DBToolTest" />
-      <item itemvalue="Application.UserJoin" />
-      <item itemvalue="Application.SumNormal" />
+      <item itemvalue="Application.ThisDemo" />
+      <item itemvalue="Application.SumMultiThreads" />
+      <item itemvalue="Application.NewThread" />
       <item itemvalue="Application.SumArray" />
+      <item itemvalue="Application.SumNormal" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SumArray" />
         <item itemvalue="Application.SumNormal" />
-        <item itemvalue="Application.UserJoin" />
-        <item itemvalue="Application.DBToolTest" />
-        <item itemvalue="Application.TestWN" />
+        <item itemvalue="Application.SumMultiThreads" />
+        <item itemvalue="Application.NewThread" />
+        <item itemvalue="Application.ThisDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -466,17 +474,36 @@
       <workItem from="1561882643272" duration="7195000" />
       <workItem from="1562054756292" duration="5436000" />
       <workItem from="1562063626957" duration="1171000" />
+      <workItem from="1562859920989" duration="152000" />
+      <workItem from="1562919192439" duration="1196000" />
+      <workItem from="1562926977770" duration="590000" />
+      <workItem from="1562930819705" duration="11592000" />
+      <workItem from="1562973847648" duration="7011000" />
+      <workItem from="1563186933676" duration="643000" />
+      <workItem from="1563326109717" duration="13000" />
+      <workItem from="1563350518191" duration="599000" />
+      <workItem from="1563435267359" duration="12153000" />
+      <workItem from="1570877584932" duration="563000" />
+      <workItem from="1570878176757" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178551000" />
+    <option name="totallyTimeSpent" value="213373000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21261115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26289397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -485,16 +512,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296501" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48951048" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39685315" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497851" weight="0.48921832" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3962264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928367" weight="0.32884097" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290441" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.502149" side_tool="true" weight="0.48921832" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -557,6 +584,12 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumMultiThreads.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="THREAD" type="java-exception">
@@ -566,189 +599,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/jichu/Login/ALogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xunhuan/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yewushifan/Bank/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yewushifan/Bank/RyanAndMonicajob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yewushifan/deadlock_sisuo/Lock1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yewushifan/deadlock_sisuo/Lock2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yewushifan/deadlock_sisuo/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jichu/Login/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jichu/a.java" />
-    <entry file="file://$PROJECT_DIR$/src/yewushifan/piciqidong/ThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jichu/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jichu/print/Run.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jichu/print/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/OnlyMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/InterruptedException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/nio/ch/Interruptible.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/shouhuyouxianzhixing/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="314" column="40" selection-start-line="314" selection-start-column="40" selection-end-line="314" selection-end-column="40" />
-          <folding>
-            <element signature="e#9766#9767#0" expanded="true" />
-            <element signature="e#9813#9814#0" expanded="true" />
-            <element signature="e#11046#11047#0" expanded="true" />
-            <element signature="e#11093#11094#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/SynClzAndInst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
-          <folding>
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/tools/SleepTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/SynTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="125" column="28" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ThreadLocal.java" />
     <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/syn/UseThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -774,34 +625,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="69" column="59" lean-forward="true" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/AAshixianfangshi/NewThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/isInterrupted/EndRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5073">
-          <caret line="294" column="29" selection-start-line="294" selection-start-column="29" selection-end-line="294" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/FutureTask.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/Express.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -809,40 +634,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/SQLException.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/SQLException.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Connection.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedList.java" />
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/TestWN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="1230" column="69" selection-start-line="1230" selection-start-column="69" selection-end-line="1230" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="266" column="13" selection-start-line="266" selection-start-column="13" selection-end-line="266" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
-            <element signature="e#8248#8249#0" expanded="true" />
-            <element signature="e#8275#8276#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/SqlConnectImpl.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Random.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/RecursiveTask.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Future.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinTask.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinWorkerThread.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinPool.java" />
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/RecursiveTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="409">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/isInterrupted/EndRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -856,9 +679,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/SqlConnectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/DBToolTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
+        <state relative-caret-position="817">
           <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -866,98 +699,224 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/TestWN.java">
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Acourse/shouhuyouxianzhixing/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="266">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="549" column="11" selection-start-line="549" selection-start-column="11" selection-end-line="549" selection-end-column="11" />
           <folding>
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="385" column="29" selection-start-line="385" selection-start-column="29" selection-end-line="385" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/MakeArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumNormal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/RecursiveTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="67" column="54" lean-forward="true" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/UserJoin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="228">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Future.java">
+    <entry file="file://$PROJECT_DIR$/src/test/join/TestJoin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="426">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ThisDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="699" column="45" selection-start-line="699" selection-start-column="45" selection-end-line="699" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ForkJoinWorkerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="810" column="24" selection-start-line="810" selection-start-column="14" selection-end-line="810" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yewushifan/piciqidong/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yewushifan/deadlock_sisuo/Lock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jichu/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yewushifan/deadlock_sisuo/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/RunnableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/AAshixianfangshi/NewThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/MakeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="235" column="18" selection-start-line="235" selection-start-column="18" selection-end-line="235" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
           <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/SumArray.java">
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumMultiThreads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        <state relative-caret-position="589">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/DGSumMultiThreads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="263" column="32" selection-start-line="263" selection-start-column="32" selection-end-line="263" selection-end-column="32" />
+        <state relative-caret-position="361">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
-            <element signature="e#17619#17620#0" expanded="true" />
-            <element signature="e#17660#17661#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinTask.java">
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/SumNormal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="699" column="42" lean-forward="true" selection-start-line="699" selection-start-column="42" selection-end-line="699" selection-end-column="42" />
+        <state relative-caret-position="114">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinWorkerThread.java">
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        <state relative-caret-position="76">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinPool.java">
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/B/SumUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="783" column="68" lean-forward="true" selection-start-line="783" selection-start-column="68" selection-end-line="783" selection-end-column="68" />
+        <state relative-caret-position="19">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/A/SumArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

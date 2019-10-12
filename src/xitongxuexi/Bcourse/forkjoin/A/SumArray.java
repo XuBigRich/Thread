@@ -1,10 +1,11 @@
-package xitongxuexi.Bcourse.forkjoin;
+package xitongxuexi.Bcourse.forkjoin.A;
 
+
+import xitongxuexi.Bcourse.forkjoin.MakeArray;
 
 import java.util.concurrent.ForkJoinPool;
-import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
-
+/*使用多线程ForkJoin池的方法 计算*/
 public class SumArray {
     public static class SumTask extends RecursiveTask<Integer> {
         private final static int THRESHOLD=MakeArray.ARRAY_LENGTH/4;  //数组总长度 除以 10  4000/10=400

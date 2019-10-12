@@ -1,7 +1,8 @@
-package xitongxuexi.Bcourse.forkjoin;
+package xitongxuexi.Bcourse.forkjoin.A;
 
 import xitongxuexi.Acourse.tools.SleepTools;
-
+import xitongxuexi.Bcourse.forkjoin.MakeArray;
+/*单线程运行*/
 public class SumNormal {
     public static void main(String[] args) {
         int count=0;
