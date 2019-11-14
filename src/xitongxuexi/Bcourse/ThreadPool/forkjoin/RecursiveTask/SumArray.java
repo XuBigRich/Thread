@@ -1,14 +1,14 @@
-package xitongxuexi.Bcourse.forkjoin.A;
+package xitongxuexi.Bcourse.ThreadPool.forkjoin.RecursiveTask;
 
 
-import xitongxuexi.Bcourse.forkjoin.MakeArray;
+import xitongxuexi.Bcourse.ThreadPool.MakeArray;
 
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 /*使用多线程ForkJoin池的方法 计算*/
 public class SumArray {
     public static class SumTask extends RecursiveTask<Integer> {
-        private final static int THRESHOLD=MakeArray.ARRAY_LENGTH/4;  //数组总长度 除以 10  4000/10=400
+        private final static int THRESHOLD=MakeArray.ARRAY_LENGTH/10;  //数组总长度 除以 10  4000/10=400
         private int[] src;
         private int fromIndex;
         private int toIndex;
@@ -19,17 +19,17 @@ public class SumArray {
         }
         @Override
         protected Integer compute() {
-            if(fromIndex+toIndex<THRESHOLD){    // 当 起始位置 到 结束位置 中间 数字 小于 阈值   就不拆了 
+            if(toIndex-fromIndex<THRESHOLD){    // 当 起始位置 到 结束位置 中间 数字 小于 阈值   就不拆了
                 int count=0;
-                for(int i=fromIndex;i<toIndex;i++){
+                for(int i=fromIndex;i<=toIndex;i++){
                     count=count+src[i];
                 }
-                System.out.println(count);
                 return count;
             }else {
                 int mid=(fromIndex+toIndex)/2;
                 SumTask left= new SumTask(src,fromIndex,mid);  //递归调用
-                SumTask right=new SumTask(src,mid+1,toIndex);  
+                SumTask right=new SumTask(src,mid+1,toIndex);
+                invokeAll(left,right);
                  return left.join()+right.join();
 
             }
