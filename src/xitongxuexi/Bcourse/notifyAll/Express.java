@@ -1,4 +1,4 @@
-package xitongxuexi.Bcourse;
+package xitongxuexi.Bcourse.notifyAll;
 /*
 * 类说明 快递实体类
 * */
