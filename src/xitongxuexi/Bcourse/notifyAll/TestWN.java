@@ -1,4 +1,5 @@
-package xitongxuexi.Bcourse;
+package xitongxuexi.Bcourse.notifyAll;
+
 /*
 * 类说明 :测试wait /notify/notifyAll
 * */
