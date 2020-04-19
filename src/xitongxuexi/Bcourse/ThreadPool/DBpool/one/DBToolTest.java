@@ -1,4 +1,4 @@
-package xitongxuexi.Bcourse.xianchengchi;
+package xitongxuexi.Bcourse.ThreadPool.DBpool.one;
 
 import java.sql.Connection;
 import java.util.concurrent.CountDownLatch;

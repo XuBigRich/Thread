@@ -1,4 +1,6 @@
-package xitongxuexi.Bcourse.xianchengchi;
+package xitongxuexi.Bcourse.ThreadPool.DBpool.one;
+
+import xitongxuexi.Bcourse.ThreadPool.DBpool.SqlConnectImpl;
 
 import java.sql.Connection;
 import java.util.LinkedList;

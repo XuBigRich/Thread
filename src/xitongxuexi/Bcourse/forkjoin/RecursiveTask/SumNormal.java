@@ -1,4 +1,4 @@
-package xitongxuexi.Bcourse.ThreadPool.forkjoin.RecursiveTask;
+package xitongxuexi.Bcourse.forkjoin.RecursiveTask;
 
 import xitongxuexi.Acourse.tools.SleepTools;
 import xitongxuexi.Bcourse.ThreadPool.MakeArray;

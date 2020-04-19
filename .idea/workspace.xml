@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e214074-63ec-41f9-b1c7-269da691d4d5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ConditionsForWaiting/countDownLatch/UseContDownLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ConditionsForWaiting/cyclicBarrier/UseCyclicBarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/DBpool/two/DBPoolSemaphore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/DBpool/two/DBToolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/exchange/UseExchange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/notifyAll/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/notifyAll/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/ThreadPool/Executor/DGSumMultiThreads.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/ThreadPool/Executor/DGSumMultiThreads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/countDownLatch/UseContDownLatch$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/countDownLatch/UseContDownLatch$BusiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/countDownLatch/UseContDownLatch$InitThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/countDownLatch/UseContDownLatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/notifyAll/Notify.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/notifyAll/Notify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/notifyAll/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/notifyAll/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/xianchengchi/DBPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/xianchengchi/DBToolTest$Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/xianchengchi/DBToolTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Thread/xitongxuexi/Bcourse/xianchengchi/SqlConnectImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/Executor/DGSumMultiThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/Executor/DGSumMultiThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/MakeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/MakeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/forkjoin/RecursiveAction/Determine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/RecursiveAction/Determine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/forkjoin/RecursiveAction/FindDirsFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/RecursiveAction/FindDirsFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/forkjoin/RecursiveTask/SumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/RecursiveTask/SumArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/forkjoin/RecursiveTask/SumNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/RecursiveTask/SumNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/UserJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/join/UserJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/countDownLatch/UseContDownLatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/DBPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/DBpool/one/DBPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/DBToolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/DBpool/one/DBToolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/xianchengchi/SqlConnectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/DBpool/SqlConnectImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,20 +46,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>run</find>
-      <find>public void run()</find>
-      <find>sleep</find>
-      <find>finalize</find>
-      <find>toSeconds</find>
-      <find>TimeUnit</find>
-      <find>init</find>
-      <find>fetch</find>
-      <find>fetchConn</find>
-      <find>ForkJoinWorkerThread</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -55,6 +66,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -69,14 +83,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserJoin">
+  <component name="RunManager" selected="Application.UseExchange">
     <configuration name="DBToolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.xianchengchi.DBToolTest" />
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.ThreadPool.DBpool.two.DBToolTest" />
       <module name="Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.xianchengchi.*" />
+          <option name="PATTERN" value="xitongxuexi.Bcourse.ThreadPool.DBpool.two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,27 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DGSumMultiThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.ThreadPool.Executor.DGSumMultiThreads" />
+    <configuration name="SumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.forkjoin.RecursiveTask.SumArray" />
       <module name="Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.ThreadPool.Executor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDirsFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.ThreadPool.forkjoin.RecursiveAction.FindDirsFiles" />
-      <module name="Thread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.ThreadPool.forkjoin.RecursiveAction.*" />
+          <option name="PATTERN" value="xitongxuexi.Bcourse.forkjoin.RecursiveTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +113,12 @@
       </method>
     </configuration>
     <configuration name="UseContDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.countDownLatch.UseContDownLatch" />
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.ConditionsForWaiting.countDownLatch.UseContDownLatch" />
       <module name="Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.countDownLatch.*" />
+          <option name="PATTERN" value="xitongxuexi.Bcourse.ConditionsForWaiting.countDownLatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +126,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.UserJoin" />
+    <configuration name="UseCyclicBarrier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.ConditionsForWaiting.cyclicBarrier.UseCyclicBarrier" />
       <module name="Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xitongxuexi.Bcourse.*" />
+          <option name="PATTERN" value="xitongxuexi.Bcourse.ConditionsForWaiting.cyclicBarrier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseExchange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xitongxuexi.Bcourse.exchange.UseExchange" />
+      <module name="Thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xitongxuexi.Bcourse.exchange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +177,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DGSumMultiThreads" />
-      <item itemvalue="Application.DBToolTest" />
-      <item itemvalue="Application.FindDirsFiles" />
       <item itemvalue="Application.UseContDownLatch" />
-      <item itemvalue="Application.UserJoin" />
+      <item itemvalue="Application.SumArray" />
+      <item itemvalue="Application.UseCyclicBarrier" />
+      <item itemvalue="Application.DBToolTest" />
+      <item itemvalue="Application.UseExchange" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserJoin" />
-        <item itemvalue="Application.UseContDownLatch" />
-        <item itemvalue="Application.FindDirsFiles" />
+        <item itemvalue="Application.UseExchange" />
         <item itemvalue="Application.DBToolTest" />
-        <item itemvalue="Application.DGSumMultiThreads" />
+        <item itemvalue="Application.UseCyclicBarrier" />
+        <item itemvalue="Application.UseContDownLatch" />
+        <item itemvalue="Application.SumArray" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +276,9 @@
       <workItem from="1570939208201" duration="17226000" />
       <workItem from="1571051063408" duration="3106000" />
       <workItem from="1573870665956" duration="670000" />
-      <workItem from="1587172687764" duration="4199000" />
+      <workItem from="1587172687764" duration="4372000" />
+      <workItem from="1587207851352" duration="7092000" />
+      <workItem from="1587260094611" duration="16157000" />
     </task>
     <servers />
   </component>
@@ -283,7 +299,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -303,29 +321,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/Executor/DGSumMultiThreads.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="17" />
+          <line>39</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="file.getAbsolutePath().endsWith(suffix)==true" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/forkjoin/RecursiveAction/FindDirsFiles.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="useful.getQueueLength()==0" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/xitongxuexi/Bcourse/ThreadPool/DBpool/two/DBPoolSemaphore.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint suspend="THREAD" type="java-exception" />
       </default-breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
