@@ -1,4 +1,4 @@
-package xitongxuexi.Bcourse.forkjoin.B;
+package xitongxuexi.Bcourse.ThreadPool.Executor;
 /*负责计算数组中lo到hi之间的和*/
 public class SumUtils {
     public static long sumRange(int[] arr,int lo,int hi){

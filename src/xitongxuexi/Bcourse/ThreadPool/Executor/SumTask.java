@@ -1,4 +1,4 @@
-package xitongxuexi.Bcourse.forkjoin.B;
+package xitongxuexi.Bcourse.ThreadPool.Executor;
 
 import java.util.concurrent.Callable;
 

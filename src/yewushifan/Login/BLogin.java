@@ -1,4 +1,4 @@
-package jichu.Login;
+package yewushifan.Login;
 
 public class BLogin extends Thread {
     public void run(){

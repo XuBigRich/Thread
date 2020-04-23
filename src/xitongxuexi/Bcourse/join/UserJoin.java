@@ -1,4 +1,4 @@
-package xitongxuexi.Bcourse;
+package xitongxuexi.Bcourse.join;
 
 import xitongxuexi.Acourse.tools.SleepTools;
 

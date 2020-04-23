@@ -1,4 +1,4 @@
-package xitongxuexi.Bcourse.xianchengchi;
+package xitongxuexi.Bcourse.ThreadPool.DBpool;
 
 
 import java.sql.*;

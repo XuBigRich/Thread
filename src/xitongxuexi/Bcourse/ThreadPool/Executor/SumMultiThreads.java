@@ -1,7 +1,7 @@
-package xitongxuexi.Bcourse.forkjoin.B;
+package xitongxuexi.Bcourse.ThreadPool.Executor;
 
 
-import xitongxuexi.Bcourse.forkjoin.MakeArray;
+import xitongxuexi.Bcourse.ThreadPool.MakeArray;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
