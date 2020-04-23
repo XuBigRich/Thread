@@ -17,7 +17,7 @@ public class EndThread {
         }
         public void run(){
             String threadName=Thread.currentThread().getName();
-            /*isInterrupted默认是false*/
+            /*isInterrupted默认是false 中断*/
             while(!isInterrupted()){
                 System.out.println(threadName+" is run!");
             }

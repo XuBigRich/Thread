@@ -41,7 +41,8 @@ public class  Demo {
     		/*给这个线程设置一个名字*/
     		thread.setName("zxc");
     		/*是否设置为守护线程*/
-//    	    thread.setDaemon(true);
+        //守护线程必须要在线程启动前 设置
+    	    thread.setDaemon(true);
     		thread.start(); // 其是输出的线程名字是zxc
              /* 设置优先级 */
 //          thread.setPriority(1);
