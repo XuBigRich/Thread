@@ -2,8 +2,6 @@ package xitongxuexi.Bcourse.parallel;
 
 import java.time.Duration;
 import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.LongStream;
 
 public class ParallelDemo {
