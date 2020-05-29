@@ -1,5 +1,6 @@
 package xitongxuexi.Acourse.syn;
 public class SynTest {
+    //这个关键字的意义是每次读写值都直接刷新到内存当中，不保存于高速缓存区
     private volatile int age=100000;
     private static class TestThread extends Thread{
         private SynTest synTest;

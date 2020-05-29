@@ -1,6 +1,8 @@
 package xitongxuexi.Acourse.syn;
 
 public class UseThreadLocal {
+    //ThreadLocal 的作用是保存每一个线程 的唯一变量
+    //   也就是说，每一个线程通过threadLocal.get() 方法获取到的值是这个线程唯一的；与其他线程不同
     static ThreadLocal<Integer> threadLocal=new ThreadLocal<Integer> (){
         @Override
         protected Integer initialValue(){
@@ -30,6 +32,8 @@ public class UseThreadLocal {
             System.out.println(Thread.currentThread().getName()+":"+threadLocal.get());
             /*内存回收方法*/
 //            threadLocal.remove();
+            //此方法用于测试remove的作用，建议每次使用完ThreadLocal 就remove 以节省内存
+            System.out.println(Thread.currentThread().getName()+"再次确认是否还有值:"+threadLocal.get());
         }
     }
 
