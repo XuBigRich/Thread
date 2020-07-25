@@ -17,9 +17,10 @@ public class UseCyclicBarrier {
     //jdk提供的线程安全的Map
     private static ConcurrentHashMap<String, Long> resultMap = new ConcurrentHashMap<>();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         for (int i = 0; i <= 4; i++) {
             new Thread(new SubThread()).start();
+            Thread.sleep(1000);
 //            Thread thread=new Thread(new SubThread());
 //            thread.start();
         }
