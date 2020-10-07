@@ -2,7 +2,7 @@ package yewushifan.Login;
 
 public class LoginServlet {
 //    private static String usernameRef;
-private  String usernameRef;
+    private  String usernameRef;
     private static String passwordRef;
     public  void doPost(String username,String password){
         try {

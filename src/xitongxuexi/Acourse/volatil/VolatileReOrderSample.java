@@ -20,7 +20,7 @@ public class VolatileReOrderSample {
     public static void main(String[] args) throws InterruptedException {
         for (; ; ) {
             Thread one = new Thread(() -> {
-                a = 1;
+                a = 1;  //指令重排发生在 线程中， a=1于 x=b执行顺序调个
                 x = b;
             });
 
@@ -31,8 +31,8 @@ public class VolatileReOrderSample {
             });
             one.start();
             other.start();
-            one.join();
-            other.join();
+            one.join();  //one.join 会使one线程插队于主线程前面，等one线程执行完毕以后 主线程才会继续往下执行。也就是将原本并行的两个线程 改为了串行
+            other.join();   // 作用与上面相同，但是因为开始指令在两个join上面会造成 其实other线程已经执行完毕的情况。所以 两个join在此只是为了保证one线程月other线程执行完毕在主线程之前
             System.out.println("(" + x + "," + y + ")");
             if (x == 0 && y == 0) {
                 break;

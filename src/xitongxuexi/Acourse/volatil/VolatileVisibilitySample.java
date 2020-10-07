@@ -13,11 +13,11 @@ public class VolatileVisibilitySample {
     /**
      * 不添加volatile的Flag变量
      */
-    private   boolean  initFlag = false;
+//    private   boolean  initFlag = false;
     /**
      * 添加volatile的Flag变量
      */
-//    private  boolean  initFlag = false;
+    private volatile boolean  initFlag = false;
     /**
      *  使用CountDownLatch让线程0与1 同时运行
      */
