@@ -25,10 +25,12 @@ public class UserJoin {
         for(int i=0;i<10;i++){
             Thread thread=new Thread(new JumpQueue(previous),String.valueOf(i));
             System.out.println(previous.getName()+"jump a queue the thread:" +thread.getName());
+            //第一次运行创建一个新的线程，但是该线程紧接着被主线程插队，进入等待主线程执行状态
+            //第二次与往后的线程，依次被创建并将前一个线程插队到自己前面执行。
             thread.start();
             previous=thread;
         }
-
+        //当所有线程建立完毕后，主线程故意休眠两秒钟，其他线程因为要等待主线程执行完毕后依次执行，所以其他线程也在等待
         System.out.println(Thread.currentThread().getName()+"terminate.");
         SleepTools.second(2);
     }
