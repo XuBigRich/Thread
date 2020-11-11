@@ -25,6 +25,7 @@ public class Express {
         while(km<100){
             try {
                 System.out.println("1");
+                //如果输出多个1代表 wait执行等待时会让出锁
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -37,6 +38,7 @@ public class Express {
         while(site.equals(Express.CITY)){
             try {
                 System.out.println("2");
+                //如果输出多个2代表 wait执行等待时会让出锁
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
