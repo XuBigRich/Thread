@@ -97,7 +97,7 @@ public class FindDirsFiles extends RecursiveAction {
 
     public static void main(String[] args) {
         ForkJoinPool pool = new ForkJoinPool();
-        FindDirsFiles findDirsFiles = new FindDirsFiles("c:/", "avi");
+        FindDirsFiles findDirsFiles = new FindDirsFiles("/Users/xuhongzhi", "avi");
         long start = System.currentTimeMillis();
 //        pool.invoke(findDirsFiles); //同步调用
         pool.execute(findDirsFiles);  //异步调用
