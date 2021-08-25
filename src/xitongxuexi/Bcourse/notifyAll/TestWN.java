@@ -38,6 +38,7 @@ public class TestWN {
         //        express.notifyAll();
 
         //所以改进方法 将express对象上锁，然后在锁内执行notifyAll（）方法
+        //必须注意，这个锁必须锁的是当前express对象不可以是别的
         synchronized (express) {
             express.notifyAll();
         }
