@@ -24,6 +24,7 @@ public class JoinAAABBBCCC {
     };
     Runnable runnable1 = () -> {
         try {
+            //thread 插队到 thread1前面
             thread.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -35,6 +36,7 @@ public class JoinAAABBBCCC {
 
     Runnable runnable2 = () -> {
         try {
+            //thread1 插队到 thread2前面
             thread1.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -46,6 +48,7 @@ public class JoinAAABBBCCC {
 
     public static void main(String[] args) throws InterruptedException {
         JoinAAABBBCCC joinAAABBBCCC = new JoinAAABBBCCC();
+        //thread插队到主线程前面
         joinAAABBBCCC.thread.join();
 
         joinAAABBBCCC.thread2.start();
