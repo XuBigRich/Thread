@@ -83,9 +83,11 @@ public class FindDirsFiles extends RecursiveAction {
                 }
                 //执行完之后，会进行一次 拆分任务的检查  如果有被拆分出来的任务则  递归调用compute 方法
                 if (!subTasks.isEmpty()) {
-                    //invokeAll 执行子任务下的compute 方法
+                   /**invokeAll 执行子任务下的compute 方法**/
+                   //invokeAll是提交并执行任务，join是让子任务先与自己执行
+//                    invokeAll(subTasks);
                     for (FindDirsFiles subTask : invokeAll(subTasks)) {
-                        //此join方法要与Thread join方法区分 （此处join可以理解为执行&取值）
+                       //这个地方就是让子任务先执行，然后获取子任务的返回值，如果无返回值这个地方可以不加
                         subTask.join();
                     }
                 }
@@ -97,10 +99,10 @@ public class FindDirsFiles extends RecursiveAction {
 
     public static void main(String[] args) {
         ForkJoinPool pool = new ForkJoinPool();
-        FindDirsFiles findDirsFiles = new FindDirsFiles("/Users/xuhongzhi", "avi");
+        FindDirsFiles findDirsFiles = new FindDirsFiles("/Users/xuhongzhi/学习文件", "avi");
         long start = System.currentTimeMillis();
-//        pool.invoke(findDirsFiles); //同步调用
-        pool.execute(findDirsFiles);  //异步调用
+        pool.invoke(findDirsFiles); //同步调用
+//        pool.execute(findDirsFiles);  //异步调用
         System.out.println("完成");
         System.out.println("Task is Running.....  /n The count is " + findDirsFiles.join() + " spend time:" + (System.currentTimeMillis() - start) + "ms");
     }

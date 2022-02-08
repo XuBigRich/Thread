@@ -14,9 +14,9 @@ import java.util.concurrent.Semaphore;
 public class DBPoolSemaphore {
     private final static int POOL_SIZE=10;//连接数量10个
     private static LinkedList<Connection> pool=new LinkedList<>();
-    //可用连接
+    //可用连接  防止线程从连接池中多取
     private final Semaphore useful;
-    //已用链接
+    //已用链接  防止更多数据库连接池放入
     private final Semaphore useLess;
     //初始化数据库连接池
     static{

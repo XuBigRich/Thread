@@ -8,7 +8,8 @@ import java.util.concurrent.BlockingQueue;
  * 自己瞎胡诌一个线程池
  * @Author： hongzhi.xu
  * @Date: 2020/12/3 上午10:21
- * @Version 1.0
+ * @Version 1.
+ *
  */
 public class MyThreadPool {
     //线程池中默认线程个数

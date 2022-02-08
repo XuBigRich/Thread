@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 学习使用ConcurrentHashMap
+ * 学习使用 ConcurrentHashMap
  * @Author： hongzhi.xu
  * @Date: 2020/11/13 下午7:45
  * @Version 1.0
