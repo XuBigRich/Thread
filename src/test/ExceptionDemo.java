@@ -12,8 +12,9 @@ public class ExceptionDemo {
     public static class ResultThread implements Callable<Integer> {
 
         @Override
-        public Integer call() {
-            return 0 / 0;
+        public Integer call() throws InterruptedException {
+            Thread.sleep(2000);
+            return 1 / 0;
         }
     }
 
@@ -23,7 +24,8 @@ public class ExceptionDemo {
         FutureTask<Integer> futureTask = new FutureTask<>(resultThread);
         Thread thread = new Thread(futureTask);
         thread.start();
-        futureTask.get();
+        System.out.println(futureTask.get());
+        ;
 
     }
 }
