@@ -5,6 +5,8 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
+ * 关于异常有一个问题，就是子线程的异常 通常 无法直接传导给主线程 （除非使用get获取结果） 下面是解决方案
+ *
  * 线程相关的异常问题
  * 问题：
  * 主线程开启的线程，子线程 报错 其实并不会被主线程捕获到。需要使用get方式 建立关系，才可以被捕获到
