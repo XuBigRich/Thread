@@ -26,13 +26,13 @@ public class CompletableFutureReplaceCountDown {
         }
 
         CompletableFuture<Void> voidCompletableFuture = CompletableFuture.allOf(completableFutureList.toArray(new CompletableFuture[0]));
-        //当执行完毕后调用
+        //当执行完毕后调用  他是一个异步回调，并不在主线程中执行
         voidCompletableFuture.whenComplete((r, b) -> {
             System.out.println(r.getClass() + " " + b.getClass());
-        });
-
+        }).join();
         //让主线程等待所有任务执行完毕  ，主线程一定要等回调方法执行后再 退出，否则可能会收不到  异常
         voidCompletableFuture.join();
         System.out.println("我执行了");
+
     }
 }
