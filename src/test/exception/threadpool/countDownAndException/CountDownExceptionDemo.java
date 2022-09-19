@@ -10,27 +10,24 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
 
 /**
+ * 使用CountDownLath 让一组 任务执行完毕后，然后一起继续执行程序。
+ * **** 如若执行过程中产生报错，等待线程需要得知，并有能力做出相应处理  ***************
+ * 步骤：
+ * 1.声明一个Future 列表
+ * 2.在for循环中 通过线程池提交 线程任务的方式 生成Future对象（不管是否有返回值）
+ * 3.将生成的future独对象放入List中
+ * 4.使用future.get 获取 在程序执行完毕后的结果  *****如若有异常：将抛出异常**********
+ * 优化：
+ * JDK提供了 新的方案 可以体面的 去处理程序的异常。
+ * CompletableFuture
+ *
  * @author 许鸿志
  * @since 2022/8/19
  */
-public class Demo {
+public class CountDownExceptionDemo {
     static CountDownLatch countDownLatch = new CountDownLatch(5);
-    static ExecutorService threadPool = ThreadPoolUtils.getThreadPool();
 
-    static class ResultThread implements Runnable {
-        @Override
-        public void run() {
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println("我先执行");
-            //这个异常 只有在主线程调用get 的时候才可以被主线程捕获到，否则 即使报错了 主线程也不会被感知也不会抛出
-            int i = 1 / 0;
 
-        }
-    }
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
 
@@ -54,8 +51,13 @@ public class Demo {
         System.out.println("获取完毕");
         countDownLatch.await();
         //校验一下  处理过程中有没有错
-        for (Future future : futures) {
-            future.get();
+        //如果出错，等待线程（主线程） 有能力进行 异常的捕获与处理
+        try {
+            for (Future future : futures) {
+                future.get();
+            }
+        } catch (Exception e) {
+            System.out.println("有异常产生，你需要进行处理");
         }
     }
 }
