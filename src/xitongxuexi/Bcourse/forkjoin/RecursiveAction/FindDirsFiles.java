@@ -28,7 +28,7 @@ import java.util.concurrent.RecursiveAction;
  * <p>
  * ############测试 非 join 方法##########
  * 测试 非 join 的执行 速度
- * 60行   FindDirsFiles findDirsFiles =new FindDirsFiles(file.getPath(), suffix) ;
+ * 60行   FindDirsFiles findDirsFiles =new FindDirsFiles(file.getPa th(), suffix) ;
  * 61行   invokeAll(findDirsFiles);
  * 为 不添加join 时的   代码  （ 测试时 需启用 且 与 join 方法互斥 ）
  */
